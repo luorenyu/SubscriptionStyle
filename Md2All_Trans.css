@@ -1,3 +1,15 @@
+/**
+ *
+ * 主题描述：公众号「译界初学者」的主题——地中海主题，针对英文做了优化
+ *
+ * 更新日期：2019年11月26日
+ *
+ * 主题版本：V1.0
+ * 
+ * 注：margin:0px -2px;不能用于全局属性，会导致公众号无法赞赏
+ */
+
+
 /*可任意修改样式，或恢复预设值，保存后生效
 相对“默认样式”而作的修改会用  红色 标注*/
 
@@ -6,16 +18,15 @@
      font-size: 16px;
      color: #3e3e3e;
      line-height: 1.8em;
-     word-spacing:2px; 
-     letter-spacing:0.8px;
+     word-spacing:4px; 
+     letter-spacing:2px;
      font-family: Georgia,palatino-italic,SimSun, “宋体”, serif;
 /*增加背景网格*/
      background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 4%, rgba(0, 0, 0, 0) 4%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 4%, rgba(0, 0, 0, 0) 4%);
      background-size: 20px 20px;
      background-position: center center;
      padding:20px 12px;
-     margin:0px -2px;
-  text-align: left;
+     text-align: left;
      /*text-align:justify; */
   /* text-align-last:justify; */
 }
@@ -56,7 +67,7 @@ h6 {
 h3{/*增加对h3标题的修改*/
  /* border-bottom:2px  solid   #009688;*/
   text-align:center;
-  margin 0px -2px;
+
 }
 h3 span{/*增加对h3标题字体的修改*/
   display:inline-block;
@@ -78,11 +89,16 @@ h4 span{/*增加对h3标题字体的修改*/
   display:inline-block;
   font-weight:normal;
   background: #fff;
-  padding:3px 32px  ;
+  padding:3px 24px  ;
+  border-top-right-radius: 64px; 
+  border-top-left-radius: 64px; 
+  border-bottom-right-radius:34px;
+  border-bottom-left-radius:34px;
+
 }
 
 ul, ol {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 ul{ /*无序列表*/
     list-style-type: disc;
@@ -122,7 +138,7 @@ pre code /*代码块*/
 }
 blockquote { /*引用块*/
   display: block;
-  padding: 10px 1rem;
+  padding: 0px 1rem;
   font-size: 0.9em;
   padding-right: 15px;
   margin: 1em 0;
@@ -133,10 +149,12 @@ blockquote { /*引用块*/
   overflow-scrolling: touch; 
   word-wrap: normal;
   word-break: normal;  
+  
 }
 blockquote p {
-    margin: 0px;
+    margin: 15px 0px ;
 }
+
 
 a { /*超链接*/
   text-decoration: none;
@@ -305,6 +323,7 @@ a[href^="#"] sup
    content: "x";
    border: 2px solid #bfc1bf;
     color: #bfc1bf;
+   background-image:url('<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-square" class="svg-inline--fa fa-check-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"></path></svg>');
 }
 .task-list-list .icon_check:before, .task-list-list .icon_uncheck:before
 {/*标志框*/
