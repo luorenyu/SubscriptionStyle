@@ -1,10 +1,10 @@
 /**
  *
- * 主题描述：公众号「译界初学者」的主题——地中海主题，针对英文做了优化
+ * 主题描述：公众号「贤榆House」的主题
  *
- * 更新日期：2021年11月26日
+ * 更新日期：2022年4月12日
  *
- * 主题版本：V1.0
+ * 主题版本：V1.1
  * 
  * 注：margin:0px -2px;不能用于全局属性，会导致公众号无法赞赏，就是不要出现负值
  */
@@ -14,17 +14,17 @@
 
 .output_wrapper/*此属性为全局*/
 {
-     font-size: 16px;
-     color: #3e3e3e;
-     line-height: 1.6em;
+     font-size: 17.5px;
+     color: #333333;
+     line-height: 1.0em;
      word-spacing:3px; 
-     letter-spacing:1.5px;
+     letter-spacing:2px;
      font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;   
 /*增加背景网格*/
      background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 4%, rgba(0, 0, 0, 0) 4%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 4%, rgba(0, 0, 0, 0) 4%);
      background-size: 20px 20px;
      background-position: center center;
-     padding:20px 12px;
+     padding:22px 22px;
      text-align:justify; 
   /* text-align-last:justify; */
 }
@@ -32,13 +32,13 @@
 {
   font-size: inherit  ;
   color: inherit;
-  line-height: 2em;
-  margin:0px;
+  line-height: 1.9em;
+  margin: 0px;
   padding:0px;
 }
 
 p {/*段落*/
-  margin: 1.5em 0px;
+  margin: 1.3em 0px;
 }
 h1,h2,h3,h4,h5,h6 {
   margin: 1.5em 0px;
